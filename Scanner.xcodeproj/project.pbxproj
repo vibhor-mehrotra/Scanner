@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		51398AF0258FCD0E0044535D /* Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51398AE6258FCD0E0044535D /* Scanner.framework */; };
-		51398AF5258FCD0E0044535D /* ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51398AF4258FCD0E0044535D /* ScannerTests.swift */; };
 		51398AF7258FCD0E0044535D /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 51398AE9258FCD0E0044535D /* Scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51456FC92596021C0065ECCF /* ImageScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51456FC32596021C0065ECCF /* ImageScanner.swift */; };
+		51456FCA2596021C0065ECCF /* ScannerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51456FC42596021C0065ECCF /* ScannerError.swift */; };
+		51456FCB2596021C0065ECCF /* ImageRendererVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51456FC52596021C0065ECCF /* ImageRendererVC.swift */; };
+		51456FCC2596021C0065ECCF /* PublicUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51456FC62596021C0065ECCF /* PublicUtility.swift */; };
+		51456FCD2596021C0065ECCF /* ImageRendererVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51456FC72596021C0065ECCF /* ImageRendererVC.xib */; };
+		51456FCE2596021C0065ECCF /* ImageRendererVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51456FC82596021C0065ECCF /* ImageRendererVM.swift */; };
+		51CCB3D0259603570093E8A0 /* ImageScannerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCB3CE259603560093E8A0 /* ImageScannerMock.swift */; };
+		51CCB3D1259603570093E8A0 /* ImageRendererVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCB3CF259603570093E8A0 /* ImageRendererVMTests.swift */; };
+		51CCB3D7259603680093E8A0 /* DummyIDCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51CCB3D6259603680093E8A0 /* DummyIDCard.jpg */; };
+		51CCB3DC2596037A0093E8A0 /* ImageScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCB3DA2596037A0093E8A0 /* ImageScannerTests.swift */; };
+		51CCB3DD2596037A0093E8A0 /* ScannerErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCB3DB2596037A0093E8A0 /* ScannerErrorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +37,18 @@
 		51398AE9258FCD0E0044535D /* Scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
 		51398AEA258FCD0E0044535D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51398AEF258FCD0E0044535D /* ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51398AF4258FCD0E0044535D /* ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerTests.swift; sourceTree = "<group>"; };
 		51398AF6258FCD0E0044535D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51456FC32596021C0065ECCF /* ImageScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScanner.swift; sourceTree = "<group>"; };
+		51456FC42596021C0065ECCF /* ScannerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerError.swift; sourceTree = "<group>"; };
+		51456FC52596021C0065ECCF /* ImageRendererVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRendererVC.swift; sourceTree = "<group>"; };
+		51456FC62596021C0065ECCF /* PublicUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicUtility.swift; sourceTree = "<group>"; };
+		51456FC72596021C0065ECCF /* ImageRendererVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageRendererVC.xib; sourceTree = "<group>"; };
+		51456FC82596021C0065ECCF /* ImageRendererVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRendererVM.swift; sourceTree = "<group>"; };
+		51CCB3CE259603560093E8A0 /* ImageScannerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScannerMock.swift; sourceTree = "<group>"; };
+		51CCB3CF259603570093E8A0 /* ImageRendererVMTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRendererVMTests.swift; sourceTree = "<group>"; };
+		51CCB3D6259603680093E8A0 /* DummyIDCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DummyIDCard.jpg; sourceTree = "<group>"; };
+		51CCB3DA2596037A0093E8A0 /* ImageScannerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScannerTests.swift; sourceTree = "<group>"; };
+		51CCB3DB2596037A0093E8A0 /* ScannerErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerErrorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,12 @@
 		51398AE8258FCD0E0044535D /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				51456FC52596021C0065ECCF /* ImageRendererVC.swift */,
+				51456FC72596021C0065ECCF /* ImageRendererVC.xib */,
+				51456FC82596021C0065ECCF /* ImageRendererVM.swift */,
+				51456FC32596021C0065ECCF /* ImageScanner.swift */,
+				51456FC62596021C0065ECCF /* PublicUtility.swift */,
+				51456FC42596021C0065ECCF /* ScannerError.swift */,
 				51398AE9258FCD0E0044535D /* Scanner.h */,
 				51398AEA258FCD0E0044535D /* Info.plist */,
 			);
@@ -80,10 +106,30 @@
 		51398AF3258FCD0E0044535D /* ScannerTests */ = {
 			isa = PBXGroup;
 			children = (
-				51398AF4258FCD0E0044535D /* ScannerTests.swift */,
+				51CCB3CB2596032F0093E8A0 /* ImageRendererVMTests */,
+				51CCB3CA259603160093E8A0 /* Stubs */,
+				51CCB3DA2596037A0093E8A0 /* ImageScannerTests.swift */,
+				51CCB3DB2596037A0093E8A0 /* ScannerErrorTests.swift */,
 				51398AF6258FCD0E0044535D /* Info.plist */,
 			);
 			path = ScannerTests;
+			sourceTree = "<group>";
+		};
+		51CCB3CA259603160093E8A0 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				51CCB3D6259603680093E8A0 /* DummyIDCard.jpg */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		51CCB3CB2596032F0093E8A0 /* ImageRendererVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				51CCB3CF259603570093E8A0 /* ImageRendererVMTests.swift */,
+				51CCB3CE259603560093E8A0 /* ImageScannerMock.swift */,
+			);
+			path = ImageRendererVMTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +193,11 @@
 				TargetAttributes = {
 					51398AE5258FCD0E0044535D = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					51398AEE258FCD0E0044535D = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -177,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51456FCD2596021C0065ECCF /* ImageRendererVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CCB3D7259603680093E8A0 /* DummyIDCard.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51456FC92596021C0065ECCF /* ImageScanner.swift in Sources */,
+				51456FCC2596021C0065ECCF /* PublicUtility.swift in Sources */,
+				51456FCB2596021C0065ECCF /* ImageRendererVC.swift in Sources */,
+				51456FCA2596021C0065ECCF /* ScannerError.swift in Sources */,
+				51456FCE2596021C0065ECCF /* ImageRendererVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51398AF5258FCD0E0044535D /* ScannerTests.swift in Sources */,
+				51CCB3D0259603570093E8A0 /* ImageScannerMock.swift in Sources */,
+				51CCB3DD2596037A0093E8A0 /* ScannerErrorTests.swift in Sources */,
+				51CCB3DC2596037A0093E8A0 /* ImageScannerTests.swift in Sources */,
+				51CCB3D1259603570093E8A0 /* ImageRendererVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +399,7 @@
 		51398AFB258FCD0E0044535D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6B6CF2FK8H;
@@ -349,6 +408,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Scanner/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +417,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Company.Scanner;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +427,7 @@
 		51398AFC258FCD0E0044535D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6B6CF2FK8H;
@@ -373,6 +436,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Scanner/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Company.Scanner;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +454,8 @@
 		51398AFE258FCD0E0044535D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B6CF2FK8H;
 				INFOPLIST_FILE = ScannerTests/Info.plist;
@@ -399,6 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Company.ScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,6 +475,8 @@
 		51398AFF258FCD0E0044535D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B6CF2FK8H;
 				INFOPLIST_FILE = ScannerTests/Info.plist;
