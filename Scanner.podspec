@@ -11,5 +11,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/vibhor-mehrotra/Scanner.git", :tag => "#{spec.version}" }
   spec.source_files = "Scanner/*.{swift}"
+  spec.resources = "Scanner/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   spec.swift_version = "5.0"
 end
