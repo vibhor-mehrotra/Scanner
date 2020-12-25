@@ -22,13 +22,13 @@ To integrate Scanner into your Xcode project using CocoaPods, specify it in your
 
 The project files are organised as follows:
 
- Scanner
-    -ImageScanner.swift
-    -ImageRendererVC.swift
-    -ImageRendererVC.xib
-    -ImageRendererVM.swift
-    -ScannerError
-    -PublicUtility
+     Scanner
+         -ImageScanner.swift
+         -ImageRendererVC.swift
+         -ImageRendererVC.xib
+         -ImageRendererVM.swift
+         -ScannerError
+         -PublicUtility
 
 
 ## Architechture
