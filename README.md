@@ -45,7 +45,9 @@ PublicUtility is the main file that is enough for anyone intending to use Scanne
 To use the Scanner framework all you need to do is invoke the flow as mentioned below from the relevant view controller:
 
       Scanner.present(on: vc) {(output, error) in }
-      
+
+where output is Array of Strings and error is localisedDescription of error encountered in the process if any.
+
 
 ## Requirements
 
