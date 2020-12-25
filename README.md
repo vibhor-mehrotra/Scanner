@@ -63,4 +63,9 @@ No external dependencies required to run the project.
 
 ## Unit Tests
 
-Scanner include a suite of unit tests within the test subdirectory. These tests can be simply run by executing the test action.
+Scanner include a suite of unit tests within the test subdirectory. These tests can be run simply be executed the test action on the platform framework you would like to test.
+
+
+## License
+
+Scanner is released under the MIT license.
