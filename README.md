@@ -15,7 +15,7 @@ Scanner is a lightweight iOS app to extract text from an image. The project is a
 
 To integrate Scanner into your Xcode project using CocoaPods, specify it in your Podfile:
 
-  pod 'Scanner', :git => 'https://github.com/vibhor-mehrotra/Scanner.git'
+    pod 'Scanner', :git => 'https://github.com/vibhor-mehrotra/Scanner.git'
 
 
 ## Source Organisation
@@ -23,12 +23,12 @@ To integrate Scanner into your Xcode project using CocoaPods, specify it in your
 The project files are organised as follows:
 
  Scanner
-    -ImageScanner.swift
-    -ImageRendererVC.swift
-    -ImageRendererVC.xib
-    -ImageRendererVM.swift
-    -ScannerError
-    -PublicUtility
+    - ImageScanner.swift
+    - ImageRendererVC.swift
+    - ImageRendererVC.xib
+    - ImageRendererVM.swift
+    - ScannerError
+    - PublicUtility
 
 
 ## Architechture
@@ -49,9 +49,9 @@ To use the Scanner framework all you need to do is invoke the flow as mentioned 
 
 ## Requirements
 
-Xcode 12.0 or later
-macOS 10.15.5 or later
-iOS 13.0 or later
+- Xcode 12.0 or later
+- macOS 10.15.5 or later
+- iOS 13.0 or later
 
 
 ## Dependencies
