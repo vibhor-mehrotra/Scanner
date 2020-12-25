@@ -6,9 +6,9 @@ Scanner is a lightweight iOS app to extract text from an image. The project is a
 
 ## Features
 
-Asks user to click a photo of ID card or any document.
-Extract text from clicked image and provide summary to user.
-In case text is not found, relevant eror is shown to user and he is given the option to retry.
+- Asks user to click a photo of ID card or any document.
+- Extract text from clicked image and provide summary to user.
+- In case text is not found, relevant eror is shown to user and he is given the option to retry.
 
 
 ## Installation using Cocoapods
