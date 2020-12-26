@@ -48,6 +48,8 @@ To use the Scanner framework all you need to do is invoke the flow as mentioned 
 
 where output is Array of Strings and error is localisedDescription of error encountered in the process if any.
 
+Mandatory: Please mention the usage description in Info.plist for the key NSCameraUsageDescription. 
+
 
 ## Requirements
 
