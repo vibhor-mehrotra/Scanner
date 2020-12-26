@@ -37,7 +37,7 @@ final class ImageRendererVC: UIViewController {
 extension ImageRendererVC: ImageRendererDelegate{
     func setupLivePreview(with captureSession: AVCaptureSession) {
         videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-        videoPreviewLayer.videoGravity = .resizeAspect
+        videoPreviewLayer.videoGravity = .resizeAspectFill
         videoPreviewLayer.connection?.videoOrientation = .portrait
         previewView.layer.addSublayer(videoPreviewLayer)
         self.videoPreviewLayer.frame = self.previewView.bounds
