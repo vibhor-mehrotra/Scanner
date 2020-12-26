@@ -91,10 +91,8 @@
 		51398AE8258FCD0E0044535D /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				51456FC52596021C0065ECCF /* ImageRendererVC.swift */,
-				51456FC72596021C0065ECCF /* ImageRendererVC.xib */,
-				51456FC82596021C0065ECCF /* ImageRendererVM.swift */,
-				51456FC32596021C0065ECCF /* ImageScanner.swift */,
+				516BA16925973AB7005E8067 /* Image Capture */,
+				516BA16A25973AC9005E8067 /* Image Scanner */,
 				51456FC62596021C0065ECCF /* PublicUtility.swift */,
 				51456FC42596021C0065ECCF /* ScannerError.swift */,
 				51398AE9258FCD0E0044535D /* Scanner.h */,
@@ -113,6 +111,24 @@
 				51398AF6258FCD0E0044535D /* Info.plist */,
 			);
 			path = ScannerTests;
+			sourceTree = "<group>";
+		};
+		516BA16925973AB7005E8067 /* Image Capture */ = {
+			isa = PBXGroup;
+			children = (
+				51456FC52596021C0065ECCF /* ImageRendererVC.swift */,
+				51456FC72596021C0065ECCF /* ImageRendererVC.xib */,
+				51456FC82596021C0065ECCF /* ImageRendererVM.swift */,
+			);
+			path = "Image Capture";
+			sourceTree = "<group>";
+		};
+		516BA16A25973AC9005E8067 /* Image Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				51456FC32596021C0065ECCF /* ImageScanner.swift */,
+			);
+			path = "Image Scanner";
 			sourceTree = "<group>";
 		};
 		51CCB3CA259603160093E8A0 /* Stubs */ = {
