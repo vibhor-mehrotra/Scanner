@@ -1,7 +1,7 @@
 # Scanner
 
 
-Scanner is a lightweight iOS app to extract text from an image. The project is a wrapper over iOS native Vision and AVFoundation frameworks.
+Scanner is a lightweight iOS Framework to extract text from an image. The project is a wrapper over iOS native Vision and AVFoundation frameworks.
 
 
 ## Features
@@ -15,7 +15,7 @@ Scanner is a lightweight iOS app to extract text from an image. The project is a
 
 To integrate Scanner into your Xcode project using CocoaPods, specify it in your Podfile:
 
-    pod 'Scanner', :git => 'https://github.com/vibhor-mehrotra/Scanner.git'
+    pod 'Scanner', :git => 'https://github.com/vibhor-mehrotra/Scanner.git'.
 
 
 ## Source Organisation
@@ -62,7 +62,7 @@ Mandatory: Please mention the usage description in Info.plist for the key NSCame
 
 ## Dependencies
 
-No external dependencies required to run the project.
+No external dependencies required to include the framework into the project.
 
 
 ## Unit Tests
