@@ -13,11 +13,17 @@ public final class Scanner{
         imageRendererVC.viewModel = ImageRendererVM(delegate: imageRendererVC, imageScanner: ImageScanner(), callback: {(result) in
             switch result {
             case .success(let output):
-                completion(output,  nil)
+                DispatchQueue.main.async {
+                    completion(output,  nil)
+                }
             case .failure(let error):
-                completion(nil, error.localizedDescription)
+                DispatchQueue.main.async {
+                    completion(nil, error.localizedDescription)
+                }
             }
-            imageRendererVC.view.removeFromSuperview()
+            DispatchQueue.main.async {
+                imageRendererVC.view.removeFromSuperview()
+            }
         })
         vc.view.addSubview(imageRendererVC.view)
     }
