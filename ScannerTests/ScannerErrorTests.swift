@@ -17,7 +17,7 @@ class ScannerErrorTests: XCTestCase {
 
     func testErrorDescription() throws {
         scannerError = .cameraInaccessable
-        XCTAssert(scannerError.errorDescription == "Unable to access back camera!", "Incorrect error description for cameraInaccessable")
+        XCTAssert(scannerError.errorDescription == "Unable to access back camera. Please provide camera access to the app from settings and try again.", "Incorrect error description for cameraInaccessable")
         scannerError = .invalidImage
         XCTAssert(scannerError.errorDescription == "Image is invalid. Please try again.", "Incorrect error description for invalidImage")
         scannerError = .noTextFound
